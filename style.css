@@ -12,8 +12,8 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  max-width: 500px;
+  height: 80vh;
+  max-width: 400px;
   margin: 0 auto;
   padding: 1.1rem;
   box-sizing: border-box;
@@ -38,7 +38,7 @@ body {
 
 #time-left {
   font-family: "Karla", sans-serif;
-  font-size: 10.375rem;
+  font-size: 4.375rem;
   font-weight: 800;
   text-align: center;
   margin-bottom: 1rem;
@@ -53,7 +53,7 @@ body {
   border: 1px solid black;
   color: black;
   font-family: "Rubik", sans-serif;
-  font-size: 1rem;
+  font-size: 0.8rem;
   margin: 0.313rem;
   padding: 0.313rem 0.5rem;
   text-align: center;
@@ -106,7 +106,7 @@ body {
 
 .setting-option {
  
-  align-item:center;
+  align-items:center;
   font-family: Rubik;
   margin-bottom: 10px;
 }
@@ -115,13 +115,13 @@ body {
   text-align:center;
   flex-direction:column;
   display:flex;
-  align-item:center;
+  align-items:center;
 }
 
 
 .setting-option label {
   text-align:center;
-  align-item:center;
+  align-items:center;
   font-family: Rubik;
   margin-right: 10px;
 }
@@ -153,9 +153,7 @@ body {
 }
 
 select {
-  // A reset of styles, including removing the default dropdown arrow
   appearance: none;
-  // Additional resets for further consistency
   background-color: transparent;
   border: none;
   padding: 0 1em 0 0;
@@ -166,5 +164,3 @@ select {
   cursor: inherit;
   line-height: inherit;
 }
-SquareX Safe File Viewer
-✕
