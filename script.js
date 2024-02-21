@@ -154,4 +154,3 @@ function applyUserPreferences() {
 
 // Apply user preferences on page load
 applyUserPreferences();
-SquareX Safe File Viewer
